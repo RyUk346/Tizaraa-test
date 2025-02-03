@@ -74,5 +74,3 @@ This is a simple E-Commerce web application that allows users to browse products
 Before you begin, ensure that you have the following installed on your machine:
 - **Node.js** (v14 or higher)
 - **npm** or **yarn** (npm is installed with Node.js)
-
-### Steps to Run the Project
