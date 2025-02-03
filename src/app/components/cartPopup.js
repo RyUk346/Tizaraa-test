@@ -15,7 +15,7 @@ const CartPopup = ({ closePopup }) => {
         <h1 className="text-[#364A63] text-[22px] leading-[24px] font-bold">
           Your Cart
         </h1>
-        <div className="w-full">
+        <div className="w-full max-h-full">
           {cart.length === 0 ? (
             <p className="text-[#8091A7]">Your cart is empty.</p>
           ) : (
