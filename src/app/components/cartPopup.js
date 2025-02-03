@@ -11,7 +11,7 @@ const CartPopup = ({ closePopup }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-      <div className="w-full md:w-[700px] lg:w-[900px] max-h-[480px] bg-white p-4 md:p-11 rounded-[20px] gap-[16px]">
+      <div className="w-full md:w-[700px] lg:w-[900px] max-h-screen bg-white p-4 md:p-11 rounded-[20px] gap-[16px] overflow-y-auto">
         <h1 className="text-[#364A63] text-[22px] leading-[24px] font-bold">
           Your Cart
         </h1>
@@ -39,7 +39,7 @@ const CartPopup = ({ closePopup }) => {
                 </div>
                 <button
                   onClick={() => removeFromCart(product.id)}
-                  className="text-red-500 ml-2"
+                  className="text-white ml-2 rounded bg-red-500 w-[80px] h-[35px]"
                 >
                   Remove
                 </button>
