@@ -1,7 +1,8 @@
-"use client"; // Importing useCart hook
+"use client";
 import { useCart } from "./cart";
 import { useState } from "react";
 import CartPopup from "./cartPopup";
+import Link from "next/link";
 
 export default function NavBar() {
   const { cart } = useCart(); // Accessing cart from context
@@ -55,7 +56,7 @@ export default function NavBar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a href="#home">Home</a>
+                <Link href="/home">Home</Link>
               </li>
               <li>
                 <a href="/viewProduct.js">Shop</a>
@@ -92,7 +93,7 @@ export default function NavBar() {
         <div className="navbar-center hidden lg:flex ml-[-235px]">
           <ul className="menu btn-ne menu-horizontal px-1">
             <li>
-              <a href="#home" className="text-[#581FC1]">
+              <a href="/" className="text-[#581FC1]">
                 Home
               </a>
             </li>

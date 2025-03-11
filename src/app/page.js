@@ -1,7 +1,8 @@
 import Image from "next/image";
 import NavBar from "./components/navbar";
 import Home from "./components/home";
-import Product from "./components/product";
+
+import Product from "./viewproduct/product";
 import Offer from "./components/offer";
 
 import Footer from "./components/footer";

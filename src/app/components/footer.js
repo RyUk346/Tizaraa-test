@@ -32,7 +32,7 @@ export default function footer() {
                 <input
                   type="text"
                   placeholder="Your email address"
-                  className="input join-item placeholder:text-black"
+                  className="input join-item placeholder:text-black w-[180px] sm:w-[280px]"
                 />
                 <button className="btn border-none text-white bg-[#7E53D4] join-item text-[16px] leading-[20.8px]">
                   Subscribe
@@ -66,7 +66,7 @@ export default function footer() {
           </div>
         </div>
         <div className="h-[58px] bg-[#7E53D4] flex items-center justify-center">
-          <h1>© 2024 | We5ive</h1>
+          <h1>© 2024 | Badhon</h1>
         </div>
       </div>
     </>
